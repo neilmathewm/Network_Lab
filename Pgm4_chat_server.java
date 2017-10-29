@@ -2,7 +2,7 @@ import java.net.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-public class actual_new_server{
+public class Pgm4_chat_server{
 			static TextArea t1;
 			static TextField t2;
 			static Button send;
