@@ -7,7 +7,7 @@ public class Pgm5_Client{
 			System.out.printf("Enter the String to reverse :");
 			String s = scanner.nextLine();
 
-			reverser stub = (reverser)Naming.lookup("rmi://localhost:5000/priyath");
+			reverser stub = (reverser)Naming.lookup("rmi://localhost:5000/neil");
 			System.out.println("The reverser String is :"+stub.reverse(s));
 			
 		}catch(Exception e){
