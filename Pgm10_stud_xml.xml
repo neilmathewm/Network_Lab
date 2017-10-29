@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name >Alice M</name>
+    <roll>1</roll>
+    <age>21</age>
+    <marks>75</marks>
+    <company>TCS</company>
+  </student>
+  <student>
+    <name >Bob T</name>
+    <roll>2</roll>
+    <age>21</age>
+    <marks>80</marks>
+  </student>
+  <student>
+    <name >Mike J</name>
+    <roll>3</roll>
+    <age>21</age>
+    <marks>90</marks>
+    <company>CTS</company>
+  </student>
+  <student>
+    <name >Nick M</name>
+    <roll>4</roll>
+    <age>21</age>
+    <marks>50</marks>
+  </student>
+  <student>
+    <name >Tom P</name>
+    <roll>5</roll>
+    <age>21</age>
+    <marks>82</marks>
+    <company>KPMG</company>
+  </student>
+</students>

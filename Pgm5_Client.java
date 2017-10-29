@@ -1,0 +1,17 @@
+import java.rmi.*;
+import java.util.*;
+public class Pgm5_Client{
+	public static void main(String args[]){
+		try{
+			Scanner scanner = new Scanner(System.in);
+			System.out.printf("Enter the String to reverse :");
+			String s = scanner.nextLine();
+
+			reverser stub = (reverser)Naming.lookup("rmi://localhost:5000/priyath");
+			System.out.println("The reverser String is :"+stub.reverse(s));
+			
+		}catch(Exception e){
+		
+		}
+	}
+}
