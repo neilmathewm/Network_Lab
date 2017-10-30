@@ -1,7 +1,7 @@
 import java.rmi.*;
 import java.rmi.server.*;
-public class Pgm5_reverserRemote extends UnicastRemoteObject implements reverser{
-	reverserRemote()throws RemoteException{
+public class Pgm5_reverserRemote extends UnicastRemoteObject implements Pgm5_reverser{
+	Pgm5_reverserRemote()throws RemoteException{
 		super();
 	}
 

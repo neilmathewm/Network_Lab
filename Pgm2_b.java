@@ -3,11 +3,11 @@ import java.awt.event.*;
 import java.applet.*;
  
 /* 
-<applet code="pgm2_b" width=300 height=300>
+<applet code="Pgm2_b" width=300 height=300>
 </applet>
 */
 
-public class pgm2_b extends Applet implements ActionListener
+public class Pgm2_b extends Applet implements ActionListener
 {
 TextField txt1;
 Button add,sub,mul,div,equal;

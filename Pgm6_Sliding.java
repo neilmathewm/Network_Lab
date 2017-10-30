@@ -9,7 +9,7 @@ public class Pgm6_Sliding extends JFrame implements ActionListener
  JTextField t1,t2,t3,t4,t5,t6;
  JButton b1,b2;
 
- public Sliding()
+ public Pgm6_Sliding()
  {
   try{
   Date date = new Date();
@@ -74,7 +74,7 @@ catch(Exception e){}
 
  public static void main(String arg[])
  {
-  Sliding sw=new Sliding();
+  Pgm6_Sliding sw=new Pgm6_Sliding();
   sw.setVisible(true);
 
 

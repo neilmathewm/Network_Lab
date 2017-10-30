@@ -2,10 +2,10 @@ import java.applet.*;
 import java.awt.*;
 
 /*
-<applet code="pgm2_c" width=600 height=600>
+<applet code="Pgm2_c" width=600 height=600>
 </applet>
 */
-public class pgm2_c extends Applet implements Runnable
+public class Pgm2_c extends Applet implements Runnable
 {
 	Thread t;
 	int i=0;

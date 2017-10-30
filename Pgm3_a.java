@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-public class pgm3_a
+public class Pgm3_a
 	{
 	public static void main(String args[])
 		{  
